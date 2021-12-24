@@ -40,9 +40,8 @@ class MainActivity : AppCompatActivity() {
 
         var startingHP = 20
 
-//        var playerHPs = mutableListOf(startingHP, startingHP, startingHP, startingHP, startingHP, startingHP)
         var playerHPs = MutableList(6) { startingHP }
-        var allCommanderDamage = listOf(mutableListOf(0, 0, 0, 0, 0, 0), mutableListOf(0, 0, 0, 0, 0, 0), mutableListOf(0, 0, 0, 0, 0 ,0), mutableListOf(0, 0, 0, 0, 0 ,0), mutableListOf(0, 0, 0, 0, 0 ,0), mutableListOf(0, 0, 0, 0, 0 ,0))
+        var allCommanderDamage = List(6) { MutableList(6) { 0 } }
 
         //Colors
         var selectedCard = 0
