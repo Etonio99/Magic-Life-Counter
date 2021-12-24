@@ -4,7 +4,7 @@ These files were created in Android Studio using Kotlin.
 
 ## Usage
 
-This app was made to keep track of life totals while playing the trading card game Magic the Gathering. Each player is represented by a large rounded box that has their corresponding life total centered inside. The users can tap the top and bottom halves of each box to increment or decrement the players' life totals. Users can also tap and drag upward or downward to change the totals quickly or tap and hold to increment or decrement the life totals by 5 every 350 milliseconds.
+This app was made to keep track of life totals while playing the trading card game Magic the Gathering. Each player is represented by a large rounded box that has their corresponding life total centered inside. The users can tap the top and bottom halves of each box to increment or decrement the players' life totals. Users can also tap and drag upward or downward to change the totals quickly or tap and hold to increment or decrement the life totals by 5 every 350 milliseconds. The app can keep track of 1 to 6 players' life totals.
 
 <img src=https://user-images.githubusercontent.com/65688007/147306358-85ea7301-2221-4946-a9df-be6c3b703523.png width=50% height=50%>
 
